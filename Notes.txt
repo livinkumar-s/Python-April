@@ -1,0 +1,43 @@
+Python:
+-----------
+>> Python is high-level, Interpreted Programming Language.
+
+Python Code 
+|(Compilation)
+|
+Binary code (01110111)
+|(Interpretation)
+|
+Machine Code
+
+Python file's extension ---> .py
+
+Terminal --> CLI
+
+Command to execute python file ---> python filename.py
+
+Print 
+----------
+>> Used to show Data at the output
+Ex: print(data)
+
+Syntax Of Python
+-----------------
+>> Python is case-sensitive. (a is not A)
+>> Indendation Matters. (Space that is used before lines of code. It Defiones Blocks)
+
+Comments 
+---------
+>> Comments will be ignored by python.
+
+Single Comments 
+------------------
+# --> as prefix
+'''   ''' ---> multiple line comments
+
+Purpose:
+--------
+> Explains code
+> Disable code temporarily.
+
+Binary --> 01
