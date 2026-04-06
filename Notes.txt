@@ -21,6 +21,11 @@ Print
 >> Used to show Data at the output
 Ex: print(data)
 
+Input 
+--------
+>> Used to prompt input from User.
+Ex: input()
+
 Syntax Of Python
 -----------------
 >> Python is case-sensitive. (a is not A)
@@ -41,3 +46,32 @@ Purpose:
 > Disable code temporarily.
 
 Binary --> 01
+
+Variables
+-----------
+>> It is a named memory in python to store a data.
+
+Naming Rules 
+-------------
+>> Can contain letter, numbers, _ -
+>> Cannot start with Numbers
+>> No Reserved Keywords
+>> Case-Sensitive
+
+Datatypes 
+----------
+Data type defines the type of value a variable holds.
+To find the datatype --> type(obj)
+
+Integer --> Whole Numbers. -1,-2,1,2,3,0
+Float ---> Decimal Numbers. 1.11, 2.0, -1.0979780
+String ---> Sequence of Characters. "", ''
+Concatination --> adding 2 or more string2. str1+str2+str3
+Boolean ---> True or False
+
+Type Casting 
+--------------
+int(obj) --> converted into integer. int("45")--> 45
+str(obj)
+float()
+bool()
