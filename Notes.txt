@@ -75,3 +75,64 @@ int(obj) --> converted into integer. int("45")--> 45
 str(obj)
 float()
 bool()
+
+Operators 
+------------
+>> Operators are symbols or keywords that perform operations on operands(values).
+
+Arithmetic (Basic Math Operations)
+----------------------------------------
++ --> Addition 
+- --> Subtraction 
+* --> Multiplication 
+/ --> Division 
+% --> Modulus. (3 % 5 --> 0*5 --> 0)
+// --> Floor Division 
+** --> Exponention. 4**2 --> 16
+
+BODMAS 
+
+Comparison (Boolean)
+----------------------
+Used to Compare 2 values.
+== equal
+!= not equal 
+< less than 
+> greater than 
+<=
+>=
+
+Logical (Boolean --> Boolean)
+-----------------
+and --> Logical AND. True ---> Both are True. False --> Elsewhere
+or  --> OR. True --> Any One is True. False ---> Both are False 
+not --> NOT. interts the boolean. 
+
+Assignment
+-----------
+= assign 
++= add and assign
+-= sub and assign
+*= 
+/=
+%=
+//=
+**=
+
+Bitwise Operators 
+------------------
+& --> Bitwise AND 
+| --> Bitwise OR 
+^ --> X-OR. same --> 0. Diff --> 1
+~ --> NOT. ~n=-(n+1)
+Right Shift --> >> num>>pos
+Left Shift --> << num<<pos
+
+2's comp ---> 1's comp+1
+
+Binary Addition
+---------------
+00 --> 0
+10, 01 --> 1
+11 --> 10
+111--> 11
