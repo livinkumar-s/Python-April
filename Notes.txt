@@ -29,7 +29,7 @@ Ex: input()
 Syntax Of Python
 -----------------
 >> Python is case-sensitive. (a is not A)
->> Indendation Matters. (Space that is used before lines of code. It Defiones Blocks)
+>> Indendation Matters. (Space that is used before lines of code. It Defines Blocks)
 
 Comments 
 ---------
@@ -136,3 +136,58 @@ Binary Addition
 10, 01 --> 1
 11 --> 10
 111--> 11
+
+Identity 
+----------
+
+Membership
+-----------
+
+
+Control Flow 
+--------------
+>> Conditional Cluase (if, else)
+>> Loop. (Repeating a block)
+
+
+Conditional Cluase
+-------------------
+>> Used to make python to take decision.
+
+if 
+---
+syntax 
+-------
+if condition:
+    block of code
+
+condition --> an expression that returns bool.
+
+condition --> True ---> block of code will get executed.
+ False --> will be skipped
+
+Elif 
+-----
+Syntax
+--------
+elif condiion:
+    block of code
+
+condition --> True ---> block of code will get executed.
+ False --> will be skipped
+
+Else
+-----
+Syntax:
+-----------
+else:
+    block of code
+
+True --> Will be skipped 
+False --> Will get executed
+
+Nested If:
+----------
+if cond1:
+    if cond2:
+        block of code
