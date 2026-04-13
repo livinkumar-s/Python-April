@@ -144,6 +144,17 @@ Membership
 -----------
 
 
+Sequence
+----------
+>> A Sequence is a collection of items in a specific order.
+Ex: String, List, Set....
+
+a="Hello" ---> 5 items
+
+a[0] = "H"
+a[4] = "o"
+
+
 Control Flow 
 --------------
 >> Conditional Cluase (if, else)
@@ -190,4 +201,53 @@ Nested If:
 ----------
 if cond1:
     if cond2:
+        block of code
+
+Loop 
+------
+For ---> Sequence Based Loop.
+While ---> Condition Based Loop.
+
+Loop 
+----------
+It is used to repeat a block of code.
+
+While 
+------
+>> Condition Based Loop.
+
+Syntax:
+-------
+while condition:
+    block of code
+
+The block of code is going to get executed over and over again until the condition becomes false.
+
+For loop 
+---------
+>> Sequence Based Loop.
+Syntax 
+--------
+for varName in Sequence:
+    block of code
+
+Range 
+------
+range(length) ---> range(10) ---> [0,1,2,3...9]
+range(start, end) ---> range(2,10) --> [2,3,4,5,6,7,8,9]
+range(start, end, step) ---> range(3,30,4) -->[3,7,11,15,19,23,27]
+
+range(100,0,-1)--> [100,99,98....1]
+
+Control Statements of Loop 
+----------------------------
+break ----> stop the loop.
+continue ----> skip the current execution
+
+Nested Loops 
+-------------
+Loop inside another loop.
+
+for i in seq:
+    for var in Seq:
         block of code
