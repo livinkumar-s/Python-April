@@ -75,6 +75,10 @@ int(obj) --> converted into integer. int("45")--> 45
 str(obj)
 float()
 bool()
+list()
+tuple()
+set()
+dict()
 
 Operators 
 ------------
@@ -146,6 +150,8 @@ Membership
 
 Sequence
 ----------
+To find out length of a string ---> len(obj)
+
 >> A Sequence is a collection of items in a specific order.
 Ex: String, List, Set....
 
@@ -153,6 +159,22 @@ a="Hello" ---> 5 items
 
 a[0] = "H"
 a[4] = "o"
+
+indexing and Slicing 
+----------------------
+indexing ----> accessing elements of a sequences using index numbers.
+
+a="Hello world" --> a[5]
+Negative indexing --> a[-2] --> l
+
+Slicing 
+--------
+>> Extracting part of a sequence 
+a="Hello world" ---> "world"
+seq[start:] --> a[-4:] --> 3,4,5,...last --> "lo world"
+seq[:last] --> a[:7]
+seq[start:end] 
+seq[::-1]
 
 
 Control Flow 
@@ -251,3 +273,79 @@ Loop inside another loop.
 for i in seq:
     for var in Seq:
         block of code
+
+Data Structures 
+----------------
+A data structure is way to store and organize data.
+
+List
+-----
+>> [ele1,ele2.....]
+>> Mutable
+>> Allows duplicates
+>> Oredered
+
+in built methods
+------------------
+.append(ele) --> adding element at the end 
+.insert(pos,ele) --> adding element in that given position
+.extend(seq)
+.remove(ele) --> removing by specifying the element itself. (first occur)
+.pop(ind)
+.pop()
+.clear() --> empty the list
+.index(ele) ---> position of tghatelement
+.count(ele)
+.sort() --> arrange list in asc 
+.sort(reverse=1)
+.reverse()
+
+Tuple 
+-----
+>> (ele1,ele2,.....)
+>> Ordered 
+>> duplicates are allowed 
+>> immutables
+
+In built methods 
+------------------
+.index(ele) ---> position of tghatelement
+.count(ele)
+
+Packing and UnPacking 
+-----------------------
+person=("Jimmy",45)
+name=person[0]
+age=person[1]
+name,age=person
+
+Set 
+----
+>> {ele1,ele2...}
+>> Unique values 
+>> Mutable 
+>> Unordered
+
+in built methods 
+--------------------
+.add(ele)
+.update(seq)
+.remove(ele)
+.discard(ele)
+.pop()
+.clear()
+.union(set)
+.intersection(set)
+.difference(set)
+
+Dictionary 
+----------
+>> {key1:val1, kay2:val2......}
+>> Mutable 
+>> Ordered
+
+In built methods 
+----------------
+.keys() --> returns all the keys
+.values()
+.items() --> returns both 
