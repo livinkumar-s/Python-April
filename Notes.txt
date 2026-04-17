@@ -349,3 +349,63 @@ In built methods
 .keys() --> returns all the keys
 .values()
 .items() --> returns both 
+
+
+Function 
+-----------
+>> It is a block of code that does a specific task.
+
+>> Reusability
+>> Cleaner code 
+>> Easier debaugging
+
+
+In built Functions
+User Defined
+
+Syntax:
+----------
+def fnName():
+    block of code
+
+invokig or calling ---> fnName()
+
+Parameters and Arguments 
+----------------------------
+P --> Variables in function Definition
+A --> Values passwed to that parameter
+
+Types of Arguments 
+-------------------
+Positional Arguments 
+-----------------------
+>> Order matters
+
+Keyword Arguments 
+------------------
+Mentioning parameters name while passing args.
+
+Default Arguments
+------------------
+>> Default value is given if user does noy pass one.
+
+Variable Length Arguments
+----------------------------
+>> Used when number of args is unknown
+*a
+**a 
+
+Return Keyword 
+---------------
+>> It stops the function
+>> It returns a data to the caller
+
+Scope 
+------
+>> It is a place where a var can be accessed.
+
+Global Scope:
+Variables declared outside of any functions
+
+Local Scope:
+Variable declared inside a function
