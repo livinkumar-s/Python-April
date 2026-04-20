@@ -408,4 +408,4 @@ Global Scope:
 Variables declared outside of any functions
 
 Local Scope:
-Variable declared inside a function
+Variable declared inside a function 
