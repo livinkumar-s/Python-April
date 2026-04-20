@@ -65,8 +65,45 @@ To find the datatype --> type(obj)
 
 Integer --> Whole Numbers. -1,-2,1,2,3,0
 Float ---> Decimal Numbers. 1.11, 2.0, -1.0979780
+
 String ---> Sequence of Characters. "", ''
 Concatination --> adding 2 or more string2. str1+str2+str3
+Repetition --> * --> str1*2
+String Formating --> f""
+>> Immutable
+
+In built Methods 
+----------------
+.upper()
+.lower()
+.title()
+.capitalize()
+
+.strip()
+lstrip()
+rstrip()
+
+.replace(old,new)
+
+.split() ---> converts str into list.
+.join(seq)
+
+.find(char)
+.count(char)
+
+.startswith("char")
+.endwith(char)
+
+.isDigit()
+.isalpha()
+.isalnum()
+
+Escape Char in String
+----------------------
+\n ---> new line 
+\t ---> tab
+\' --> single quote
+
 Boolean ---> True or False
 
 Type Casting 
@@ -143,9 +180,18 @@ Binary Addition
 
 Identity 
 ----------
+is 
+is not 
+
+--> not going to compare values.
+--> Compares whether both objects refers to same memory or not
 
 Membership
 -----------
+>> It checks whether a value exists inside a sequence.
+In 
+Not In 
+"x" in "Hello"
 
 
 Sequence
@@ -294,7 +340,7 @@ in built methods
 .pop(ind)
 .pop()
 .clear() --> empty the list
-.index(ele) ---> position of tghatelement
+.index(ele) ---> position of that element
 .count(ele)
 .sort() --> arrange list in asc 
 .sort(reverse=1)

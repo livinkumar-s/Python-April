@@ -67,3 +67,14 @@
 
 # print(~-4)
 # print(~45)
+
+
+# Membership
+# print(5 in [1,2,3,4])
+
+
+# a=[1,2]
+# b=a
+
+# print(a==b)
+# print(a is b)
