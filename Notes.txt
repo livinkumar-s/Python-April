@@ -487,3 +487,26 @@ except ErrorName:
 finally:
     block of code
 
+File Handling 
+---------------
+>> File handling means working with external files.
+>> create file
+>> read
+>> write
+>> append
+>> deleting
+
+To Open a file --> open("addr","r")
+To close a file --> .close()
+
+To read all the contents --> .read()
+To read the content line by line --> .readline()
+To read the content line by line --> .readlines()
+
+To Over write --> .write()
+
+Modes 
+----------
+read ---> 'r'
+write --> 'w'
+append -- 'a'
