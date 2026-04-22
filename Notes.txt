@@ -3,12 +3,13 @@ Python:
 >> Python is high-level, Interpreted Programming Language.
 
 Python Code 
-|(Compilation)
+|(Compilation)(Syntax Error)
 |
 Binary code (01110111)
-|(Interpretation)
+|(Interpretation) (Exceptions)
 |
 Machine Code
+
 
 Python file's extension ---> .py
 
@@ -455,3 +456,34 @@ Variables declared outside of any functions
 
 Local Scope:
 Variable declared inside a function 
+
+Errors:
+---------
+>> Error is a problem that is going to stop your code.
+
+Types 
+---------
+Syntax Errors
+---------------
+>> When python grammer is wrong
+>> will get caught during compilation
+Example: SyntaxError, IndentationError...
+
+Runtime Error (Exceptions)
+-------------
+>> Occurs while program is running.
+
+Examples: NameError, TypeError, ValueError, ZeroDivisionError....
+
+
+Exceptions Handilng
+--------------------
+Syntax
+-------
+try:
+    block of code
+except ErrorName:
+    Handling Block
+finally:
+    block of code
+
