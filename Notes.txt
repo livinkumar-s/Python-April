@@ -510,3 +510,47 @@ Modes
 read ---> 'r'
 write --> 'w'
 append -- 'a'
+
+OOP 
+-------
+Object Oriented Programming.
+is a programming style where we represent real-world things as objects.
+
+Object 
+-------
+car, bike....
+
+Bottle ---> height, volume --> open, closed
+Bottle ---> attribute(attributes) --> methods(open, close)
+
+Blue print --> car,car...
+Class --> obj1,obj...
+
+
+Creating Class:
+----------------
+class Bottle:
+    def __init__(self):
+        attributes
+    
+    def func1:
+        code
+    
+self -- refers to current object
+
+Encapsulation
+--------------
+Binding data and methods into a single class... restricting direct access....
+
+Inheritance
+-------------
+One class can acquire properties and methods from another class.
+
+Abstraction
+-------------
+>> Hiding the complex Implementation
+>> Showing only essential details.
+
+Polymorphism
+--------------
+Same thing with many form..
